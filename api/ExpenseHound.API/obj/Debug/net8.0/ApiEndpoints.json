@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "ExpenseHound.API.Controllers.ExpenseController",
+    "Method": "Get",
+    "RelativePath": "Expense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ExpenseHound.API.Models.Expense, ExpenseHound.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExpenseHound.API.Controllers.ExpenseController",
+    "Method": "Create",
+    "RelativePath": "Expense",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "ExpenseHound.API.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExpenseHound.API.Models.Expense",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExpenseHound.API.Controllers.ExpenseController",
+    "Method": "Get",
+    "RelativePath": "Expense/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExpenseHound.API.Models.Expense",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetExpense"
+  },
+  {
+    "ContainingType": "ExpenseHound.API.Controllers.ExpenseController",
+    "Method": "Update",
+    "RelativePath": "Expense/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseIn",
+        "Type": "ExpenseHound.API.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

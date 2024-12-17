@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aGTrZ2TEgAonYlE1eOU6eFGMt99wOHxyOKODSmYA5x0=",
+  "Source": "ExpenseHound.API",
+  "BasePath": "_content/ExpenseHound.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

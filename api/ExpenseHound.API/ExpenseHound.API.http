@@ -1,0 +1,10 @@
+@ExpenseHound.API_HostAddress = http://localhost:5029
+
+GET {{ExpenseHound.API_HostAddress}}/swagger/
+Accept: application/json
+
+###
+GET {{ExpenseHound.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
